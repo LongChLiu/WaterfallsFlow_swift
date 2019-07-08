@@ -17,7 +17,7 @@ class NDCollectionView: UICollectionViewFlowLayout {
     /** 每一行之间的间距 水平方向 */
     private(set) var ItemMargin : CGFloat = 10.0
     /** 边缘间距 */
-    private(set) var EdgeInsetsDefault : UIEdgeInsets = UIEdgeInsetsMake(10, 10, 10, 10)
+    private(set) var EdgeInsetsDefault : UIEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
     
     //懒加载
     //存放所有cell的布局属性
@@ -47,7 +47,6 @@ class NDCollectionView: UICollectionViewFlowLayout {
             for i in 0 ..< count {
                 let indexpath : NSIndexPath = NSIndexPath.init(item: i, section: num)
                 let attrs = self.layoutAttributesForItem(at: indexpath as IndexPath)!
-                
                 attrsArray.append(attrs)
             }
         }

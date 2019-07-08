@@ -196,6 +196,7 @@
 				TargetAttributes = {
 					6AE8258F1F074E1700798B25 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = YX9V49YY75;
 						ProvisioningStyle = Automatic;
 					};
 					6AE825A31F074E1700798B25 = {
@@ -215,6 +216,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -418,11 +420,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YX9V49YY75;
 				INFOPLIST_FILE = WaterfallsFlow_swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nanhutravel.www.WaterfallsFlow-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -430,11 +433,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YX9V49YY75;
 				INFOPLIST_FILE = WaterfallsFlow_swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nanhutravel.www.WaterfallsFlow-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -511,6 +515,7 @@
 				6AE825BA1F074E1700798B25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6AE825BB1F074E1700798B25 /* Build configuration list for PBXNativeTarget "WaterfallsFlow_swiftTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +524,7 @@
 				6AE825BD1F074E1700798B25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6AE825BE1F074E1700798B25 /* Build configuration list for PBXNativeTarget "WaterfallsFlow_swiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +533,7 @@
 				6AE825C01F074E1700798B25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
